@@ -8,7 +8,7 @@ console.log(chalk.bold.green("Discord Active Developer Badge"));
 console.log(chalk.bold(chalk.red("Remember to do not share your Discord Bot token with anyone!\n")));
 
 console.log(chalk.bold("This tool will help you to get the " + chalk.cyan.underline("Discord Active Developer Badge")));
-console.log(chalk.bold("If you have any problem, please contact me on Discord: " + chalk.cyan.underline("majonez.exe") + "\n"));
+console.log(chalk.bold("If you have any problem, please contact me on Discord: " + chalk.cyan.underline("mohd-aflah") + "\n"));
 
 export async function checkToken(value: string): Promise<boolean> {
  if (!value) return false;
@@ -108,7 +108,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
      "- Go to *https://discord.com/developers/active-developer* and claim your badge\n - Verification can take up to 24 hours, so wait patiently until you get your badge"
     )
     .setFooter({
-     text: "Made by @majonez.exe",
+     text: "Made by @mohd-aflah",
      iconURL: "https://cdn.discordapp.com/emojis/1040325165512396830.webp?size=64&quality=lossless",
     });
    slashSpinner.succeed(

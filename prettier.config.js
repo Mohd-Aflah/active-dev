@@ -1,8 +1,13 @@
-import config from "@igorkowalczyk/prettier-config";
-
 /**
  * @type {import("prettier").Options}
  */
 export default {
- ...config,
+ semi: true,
+ singleQuote: false,
+ tabWidth: 1,
+ trailingComma: "es5",
+ useTabs: true,
+ printWidth: 200,
+ bracketSpacing: true,
+ arrowParens: "always",
 };

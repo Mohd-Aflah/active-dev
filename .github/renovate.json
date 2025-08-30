@@ -1,3 +1,13 @@
 {
- "extends": ["github>igorkowalczyk/shared-configs//packages/renovate-config/index.json"]
+ "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+ "extends": ["config:base"],
+ "schedule": ["before 4am on Monday"],
+ "timezone": "UTC",
+ "packageRules": [
+  {
+   "matchUpdateTypes": ["minor", "patch"],
+   "groupName": "all non-major dependencies",
+   "groupSlug": "all-minor-patch"
+  }
+ ]
 }

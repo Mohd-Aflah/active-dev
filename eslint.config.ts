@@ -1,10 +1,17 @@
-import eslintConfig from "@igorkowalczyk/eslint-config";
-import { defineConfig } from "eslint/config";
-
-export default defineConfig([
- // prettier
- eslintConfig.base,
- eslintConfig.node,
- eslintConfig.typescript,
- eslintConfig.prettier,
-]);
+export default [
+ {
+  files: ["**/*.{js,ts,tsx}"],
+  languageOptions: {
+   ecmaVersion: "latest",
+   sourceType: "module",
+  },
+  rules: {
+   "no-unused-vars": "warn",
+   "no-console": "off",
+   "prefer-const": "error",
+   "no-var": "error",
+   "semi": ["error", "always"],
+   "quotes": ["error", "double"],
+  },
+ },
+];

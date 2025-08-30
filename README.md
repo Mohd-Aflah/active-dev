@@ -1,65 +1,77 @@
-![Active Developer](https://github.com/IgorKowalczyk/active-dev/assets/49127376/17770e3d-dd86-4044-9969-7adcfc3ebff3)
+# Discord Active Developer Badge Tool
 
-<div align="center">
-  <a aria-label="GitHub License" href="https://github.com/igorkowalczyk/active-dev/blob/master/license.md">
-    <img src="https://img.shields.io/github/license/igorkowalczyk/blog?color=%2334D058&logo=github&style=flat-square&label=License">
-  </a>
-  <a aria-label="Version" href="https://github.com/igorkowalczyk/active-dev/releases">
-    <img src="https://img.shields.io/github/v/release/igorkowalczyk/active-dev?color=%2334D058&logo=github&style=flat-square&label=Version">
-  </a>
-  <a aria-label="Discord" href="https://igorkowalczyk.dev/discord">
-    <img src="https://img.shields.io/discord/695282860399001640?color=%2334D058&logo=discord&style=flat-square&logoColor=fff&label=Discord">
-  </a>
-</div>
+A simple Node.js application to help you obtain the Discord Active Developer Badge by creating and using a slash command.
+
+## 📋 Prerequisites
+
+Before running this tool, make sure you have:
+
+- **Node.js** (version 16 or higher) installed on your system
+- A **Discord server** with Community features enabled
+- A **Discord Bot** created in the Discord Developer Portal
+
+## 🚀 Quick Start
+
+### Step 1: Set up your Discord Bot
+
+1. Go to [Discord Developer Portal](https://discord.com/developers/applications)
+2. Create a new application
+3. Navigate to the "Bot" tab and create a bot
+4. Copy the bot token (keep it secure!)
+5. Make sure your Discord server has Community features enabled
+
+### Step 2: Install and Run
+
+```bash
+# Clone the repository
+git clone https://github.com/Mohd-Aflah/active-dev.git
+
+# Navigate to the project directory
+cd active-dev
+
+# Install dependencies
+npm install
+
+# Run the application
+npm start
+```
+
+### Step 3: Follow the Instructions
+
+1. The application will prompt you to confirm you have a Community-enabled Discord server
+2. Enter your Discord bot token when prompted
+3. Use the provided link to add your bot to your Discord server
+4. Run the `/active` slash command in your Discord server
+5. Visit [Discord Active Developer Portal](https://discord.com/developers/active-developer) to claim your badge
+
+## 🛡️ Security Notes
+
+- **Never share your bot token** with anyone
+- The token is only used to authenticate with Discord's API
+- No personal data is collected or stored by this application
+
+## ⚠️ Important
+
+- Badge verification can take up to 24 hours
+- Make sure your Discord server has Community features enabled
+- The bot needs appropriate permissions to create slash commands
+
+## 🐛 Troubleshooting
+
+If you encounter issues:
+
+1. **Bot login fails**: Double-check your bot token
+2. **Slash command not working**: Ensure the bot has been added to your server with the correct permissions
+3. **Community server required**: Enable Community features in your Discord server settings
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+Created by **Mohd-Aflah**
 
 ---
 
-## 🔩 Without installation (Replit)
-
-[![Run on Repl.it](https://repl.it/badge/github/igorkowalczyk/active-dev)](https://repl.it/github/igorkowalczyk/active-dev)
-
-**Steps:**
-
-- Go to [Replit](https://repl.it/github/igorkowalczyk/active-dev) and click `Import from GitHub`
-- Go to [Discord Developer Portal](https://discord.com/developers/applications) and create a new application
-- Go to `Bot` tab and create a new bot, then copy the token
-- Check if you enabled Community in your Discord server
-- In Replit click `Run` button and wait for the app to start
-- Follow the instructions in the CLI and you're done!
-
-## 🔩 Installation (Windows)
-
-- Download the latest version of Node.js from [here](https://nodejs.org/en/download/) and install it
-- Clone this repository ([Download](https://github.com/IgorKowalczyk/active-dev/archive/refs/heads/main.zip))
-- Find the `.zip` file you downloaded and extract it
-- Open the folder in your terminal (In Windows you can use `win` + `R` and type `cmd` and then `cd` drag the folder to the terminal)
-- Install dependencies by running `npm install` or `pnpm install`
-- Go to [Discord Developer Portal](https://discord.com/developers/applications) and create a new application
-- Go to `Bot` tab and create a new bot, then copy the token
-- Run `npm start` or `pnpm start`
-- Check if you enabled Community in Discord your server
-- Paste the token when asked and press enter
-- Follow the instructions in the CLI and you're done!
-
-## 📹 Video tutorial
-
-https://user-images.githubusercontent.com/49127376/210598199-48529c34-d783-4d6c-bb56-5bfb7a1a8219.mp4
-
-> [!NOTE]
-> The bot token shown in the video has already been removed so don't try to use it.
-
-## ⁉️ Issues
-
-If you come across any errors or have suggestions for improvements, please create a [new issue here](https://github.com/igorkowalczyk/active-dev/issues) and describe it clearly.
-
-## 📥 Pull Requests
-
-When submitting a pull request, please follow these steps:
-
-- Clone [this repository](https://github.com/igorkowalczyk/active-dev) `https://github.com/IgorKowalczyk/active-dev.git`
-- Create a branch from `main` and give it a meaningful name (e.g. `my-awesome-new-feature`).
-- Open a [pull request](https://github.com/igorkowalczyk/active-dev/pulls) on [GitHub](https://github.com/) and clearly describe the feature or fix you are proposing.
-
-## 📋 License
-
-This project is licensed under the MIT. See the [LICENSE](https://github.com/igorkowalczyk/active-dev/blob/master/license.md) file for details
+*This tool helps you obtain the Discord Active Developer Badge through Discord's official process.*

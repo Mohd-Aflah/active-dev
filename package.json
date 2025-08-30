@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IgorKowalczyk/active-dev.git"
+    "url": "git+https://github.com/Mohd-Aflah/active-dev.git"
   },
   "keywords": [
     "nodejs",
@@ -22,12 +22,12 @@
     "active-developer",
     "active-developer-badge"
   ],
-  "author": "Igor Kowalczyk",
+  "author": "Mohd-Aflah",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/IgorKowalczyk/active-dev/issues"
+    "url": "https://github.com/Mohd-Aflah/active-dev/issues"
   },
-  "homepage": "https://github.com/IgorKowalczyk/active-dev#readme",
+  "homepage": "https://github.com/Mohd-Aflah/active-dev#readme",
   "dependencies": {
     "chalk": "5.6.0",
     "discord.js": "14.22.1",
@@ -36,19 +36,12 @@
     "prompts": "2.4.2"
   },
   "devDependencies": {
-    "@igorkowalczyk/eslint-config": "3.1.0",
-    "@igorkowalczyk/prettier-config": "3.1.0",
     "@types/node": "24.3.0",
     "@types/prompts": "2.4.9",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
     "eslint": "9.34.0",
     "prettier": "3.6.2",
     "tsx": "4.20.5"
-  },
-  "packageManager": "pnpm@10.15.0",
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "unrs-resolver"
-    ]
   }
 }
