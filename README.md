@@ -36,6 +36,8 @@ npm install
 npm start
 ```
 
+## 📝 How to Use
+
 ### Step 3: Follow the Instructions
 
 1. The application will prompt you to confirm you have a Community-enabled Discord server
